@@ -178,7 +178,7 @@ const handleSignIn = (e) => {
     <div className="container">
       <ToastContainer />
       <div className="row">
-        <div className="col-md-6 image-container">
+        <div className="col-md-6 image-container d-none d-md-block">
           <img src={img1} alt="Background" className="img-fluid" />
         </div>
         <div className="col-md-6 form-container">
@@ -215,7 +215,7 @@ const handleSignIn = (e) => {
                 {!isVerified ? (
                   <button
                     type="button"
-                    className="btn btn-primary"
+                    className="btn btn-secondary"
                     onClick={sendEmail}
                   >
                     Verify
@@ -305,7 +305,7 @@ const handleSignIn = (e) => {
                             Resend OTP
                           </button>
                         )}
-                        <button className="btn btn-primary" onClick={handleVerifyOtp}>
+                        <button className="btn btn-secondary" onClick={handleVerifyOtp}>
                           Verify OTP
                         </button>
                       </div>
@@ -313,7 +313,7 @@ const handleSignIn = (e) => {
                   </div>
                 </div>
               )}
-              <button type="submit" className="btn btn-primary" disabled={!isVerified} onClick={handleSignIn}>
+              <button type="submit" className="btn btn-success" disabled={!isVerified} onClick={handleSignIn}>
                 Sign In
               </button>
               <div className="mt-3">

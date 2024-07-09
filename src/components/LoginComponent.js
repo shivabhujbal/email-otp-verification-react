@@ -68,7 +68,7 @@ const LoginComponent = () => {
                   required
                 />
               </div>
-              <button type="submit" className="btn btn-primary" onClick={handleLogin}>
+              <button type="submit" className="btn btn-success" onClick={handleLogin}>
                 Login
               </button>
               <div className="mt-3">

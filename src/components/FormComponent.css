@@ -117,3 +117,8 @@
     margin-top: 10px;
   }
   
+  /* @media (max-width: 667px) {
+    .image-container {
+      display: none;
+    }
+  } */
