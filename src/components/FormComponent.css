@@ -116,3 +116,23 @@
     margin-top: 10px;
   }
   
+  @media (max-width: 767px) {
+    .image-container {
+    display: none;
+    
+    }
+ 
+    .container{
+      max-width: 400px;
+      max-height: fit-content;
+      /* margin-top: 50px; */
+      background-image: url("../images/img1.jpg");
+      background-size: cover; 
+    background-position: center; 
+      align-self: center;
+      padding: 30px;
+      border: 1px solid #bb8b8b;
+      border-radius: 5px;
+      /* background-color: #9cece760; */
+    }
+  }

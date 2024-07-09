@@ -178,7 +178,7 @@ const handleSignIn = (e) => {
     <div className="container">
       <ToastContainer />
       <div className="row">
-        <div className="col-md-6 image-container d-none d-md-block">
+        <div className="col-md-6 image-container ">
           <img src={img1} alt="Background" className="img-fluid" />
         </div>
         <div className="col-md-6 form-container">
