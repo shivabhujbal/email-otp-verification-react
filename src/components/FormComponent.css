@@ -4,7 +4,6 @@
     margin-top: 50px;
     padding: 20px;
     border: 2px solid #ccc;
-   
     border-radius: 5px;
     background-color: #9cece760;
 
@@ -117,8 +116,3 @@
     margin-top: 10px;
   }
   
-  /* @media (max-width: 667px) {
-    .image-container {
-      display: none;
-    }
-  } */
